@@ -1,8 +1,4 @@
-import {Text, SafeAreaView} from "react-native";
+import { PageContent } from "../components";
 export default function Community(){
-    return (
-        <SafeAreaView>
-            <Text>Community</Text>
-        </SafeAreaView>
-    )
+    return <PageContent header="Community" imageSource={require("../assets/Community.png")}/>
 }

@@ -1,8 +1,4 @@
-import {Text, SafeAreaView} from "react-native";
+import { PageContent } from "../components";
 export default function Marketplace(){
-    return (
-        <SafeAreaView>
-            <Text>Marketplace</Text>
-        </SafeAreaView>
-    )
+    return <PageContent header="Marketplace" imageSource={require("../assets/Marketplace.png")}/> 
 }

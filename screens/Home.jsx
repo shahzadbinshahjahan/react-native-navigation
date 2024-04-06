@@ -1,8 +1,4 @@
-import {Text, SafeAreaView} from "react-native";
+import { PageContent } from "../components"
 export default function Home(){
-    return (
-        <SafeAreaView>
-            <Text>Home</Text>
-        </SafeAreaView>
-    )
+    return <PageContent header="Home" imageSource={require("../assets/Home.png")}/>
 }

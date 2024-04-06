@@ -1,8 +1,4 @@
-import {Text, SafeAreaView} from "react-native";
+import { PageContent } from "../components";
 export default function Profile(){
-    return (
-        <SafeAreaView>
-            <Text>Profile</Text>
-        </SafeAreaView>
-    )
+    return <PageContent header="Profile" imageSource={require("../assets/Profile.png")}/>
 }

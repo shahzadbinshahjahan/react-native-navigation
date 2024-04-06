@@ -1,8 +1,4 @@
-import {Text, SafeAreaView} from "react-native";
+import { PageContent } from "../components";
 export default function Orders(){
-    return (
-        <SafeAreaView>
-            <Text>Orders</Text>
-        </SafeAreaView>
-    )
+    return <PageContent header="Orders" imageSource={require("../assets/Orders.png")}/>
 }

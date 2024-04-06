@@ -1,8 +1,4 @@
-import {Text, SafeAreaView} from "react-native";
+import { PageContent } from "../components";
 export default function Activity(){
-    return (
-        <SafeAreaView>
-            <Text>Activity</Text>
-        </SafeAreaView>
-    )
+    return <PageContent header="Activity" imageSource={require("../assets/Activity.png")}/>
 }
