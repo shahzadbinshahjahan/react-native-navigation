@@ -1,11 +1,10 @@
 import { NavigationContainer } from '@react-navigation/native';
-import { TabNavigator } from './BottomNavigator';
+import DrawerNavigator from './DrawerNavigator';
 
-
-export default function Navigator(){
-    return (
-        <NavigationContainer>
-            <TabNavigator/>
-        </NavigationContainer>
-    )
+export default function Navigator() {
+  return (
+    <NavigationContainer>
+      <DrawerNavigator/>
+    </NavigationContainer>
+  );
 }
