@@ -1,3 +1,8 @@
+/**
+ * @param {import("@react-navigation/drawer").DrawerContentComponentProps} props
+ * @returns {JSX.Element}
+ * Component to display drawer navigation
+ */
 import { createDrawerNavigator } from '@react-navigation/drawer';
 import BottomNavigator from './BottomNavigator';
 import { Profile,Orders,Activity } from '../screens';

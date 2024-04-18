@@ -1,3 +1,7 @@
+/**
+ * @returns {JSX.Element}
+ * Component to display navigation
+ */
 import { NavigationContainer } from '@react-navigation/native';
 import DrawerNavigator from './DrawerNavigator';
 

@@ -1,3 +1,9 @@
+/**
+ * @param {string} header
+ * @param {import("react-native").ImageSourcePropType} imageSource
+ * @returns {JSX.Element}
+ * Component to display header and image for all pages
+ */
 import {Text, SafeAreaView, Image, StyleSheet} from "react-native";
 export default function PageContent({header,imageSource}){
     return (
