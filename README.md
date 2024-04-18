@@ -48,6 +48,10 @@ Once you've installed the dependencies, you can run the application using Expo. 
 
 3. **Interact with the Application**: Once the application is running, you can interact with it on your device or emulator/simulator.
 
+## Generating an APK
+
+To generate an APK for your React Native Expo application, you can follow the steps outlined in this [guide](https://dev.to/chinmaymhatre/how-to-generate-apk-using-react-native-expo-kae). It provides detailed instructions on how to create an APK file for Android devices.
+
 ## About the Application
 
 This application is a basic React Native application that demonstrates the implementation of navigation in a scalable manner. It utilizes popular navigation libraries such as React Navigation to provide a seamless user experience.
